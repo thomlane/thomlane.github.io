@@ -1,6 +1,6 @@
 body {
   font-family: 'Libre Baskerville', serif;
-  color: white;
+  color: lightgray;
   background-color: #1d2b30;
   margin: 0;
   bottom: 0;
@@ -29,7 +29,7 @@ body {
   margin-left: 20px;
   font-size: 20px;
   text-decoration: none;
-  color: white;
+  color: lightgray;
 }
 
 .nav-link.active {
@@ -119,4 +119,40 @@ body {
   max-width: 70%;
   position:relative;
   z-index: 1;
+}
+
+
+/* about page */
+.about-container {
+  min-height: 92%;
+  display: flex;
+  height: auto;
+  /* text-align: center; */
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-left: 40px;
+}
+
+.about-name {
+  font-size: 60px;
+  text-decoration: underline;
+  padding-left: 40px;
+}
+
+.about-image {
+  max-width: 15%;
+  border: 5px solid #4d7380;
+  border-radius: 15%;
+  position: absolute;
+  right: 15%;
+  top: 15%;
+}
+
+.about-text {
+  max-width: 50%;
+  min-width: 15%;
+  background-color: #2e3c41;
+  border: 3px solid #4d7380;
+  padding: 15px;
 }
