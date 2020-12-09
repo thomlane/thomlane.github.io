@@ -90,11 +90,11 @@ a #github-icon {
 }
 
 .project-box {
-  border: 2px solid black;
   margin:20px;
   margin-top: 50px;
   padding: 10px;
-  background-color: #4d7380;
+  background-color: #2e3c41;
+  border: 3px solid #4d7380;
   min-height: 250px;
   max-width: 1750px;
   position: relative;
