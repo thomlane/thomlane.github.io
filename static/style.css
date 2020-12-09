@@ -1,6 +1,4 @@
 body {
-  /* font-family: "helvetica", sans-serif; */
-  /* font-family: 'Nunito', sans-serif; */
   font-family: 'Libre Baskerville', serif;
   color: white;
   background-color: #1d2b30;
@@ -42,15 +40,17 @@ body {
   cursor: pointer;
 }
 
-/* main text box */
+
+/* home page */
 .text-container {
-  min-height: 100%;
+  min-height: 92%;
   display: flex;
   height: auto;
   text-align: center;
   justify-content: center;
   flex-direction: column;
 }
+
 
 .text-name {
   font-size: 100;
@@ -60,4 +60,63 @@ body {
 .text-description {
   font-size: 20;
   padding-bottom: 400px;
+}
+
+/* projects page */
+.project-container {
+  min-height: 92%;
+  display: flex;
+  height: auto;
+  /* text-align: center; */
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.project-box {
+  border: 2px solid black;
+  margin:20px;
+  margin-top: 50px;
+  padding: 10px;
+  background-color: #4d7380;
+  min-height: 250px;
+  max-width: 1750px;
+  position: relative;
+}
+
+.project-title {
+  font-size: 35;
+  margin-top: 10px;
+  margin-bottom: 0;
+  position:relative;
+  z-index: 1;
+}
+
+.project-reason {
+  font-size: 20;
+  margin-top: 0px;
+  padding-left: 30px;
+}
+
+.project-image {
+  width: 300px;
+  max-width: 28%;
+  max-height: 250px;
+  position: absolute;
+  right:5%;
+  top: 10%;
+  z-index: 0;
+
+}
+
+.project-finished-on {
+  font-size: 15;
+  margin-top: 35px;
+}
+
+.project-description {
+  font-size: 13;
+  max-width: 70%;
+  position:relative;
+  z-index: 1;
 }

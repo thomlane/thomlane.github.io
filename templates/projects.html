@@ -1,0 +1,40 @@
+<!-- <!DOCTYPE html> -->
+<html>
+  <head>
+    <title>Projects - Lane Thompson Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Nunito:wght@700&display=swap" rel="stylesheet">
+
+    <!-- <script src="{{ url_for('static', filename='script.js') }}"></script> -->
+    <link type="text/css" rel="stylesheet" href="../static/style.css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <div id='nav-container'>
+        <a href="./index.html" class="nav-link unactive">Home</a>
+        <a href="./projects.html" class="nav-link active">Projects</a>
+        <a href="./about.html" class="nav-link unactive">About</a>
+      </div>
+    </nav>
+    <div class='project-container'>
+      <div class='project-box'>
+        <p class='project-title'>Handheld AR Device</p>
+        <p class='project-reason'>Senior Capstone</p>
+        <img class='project-image' src="../images/Raspberry-Pi-4-Model-B-9.jpg" alt="A Raspberry Pi 4 Model B">
+        <p class='project-finished-on'>Finished on: Ongoing</p>
+        <p class='project-description'>
+          This project is meant to create an AR device that is more intuitive
+          and more easliy shared. The project uses a Raspberry Pi 4 Model B with
+          a camera to capturea a video feed. The video feed will be parsed using
+          OpenCV to find a QR code. That QR code describes the data that needs
+          to shown at that space. A graphic is then created in unity to match
+          the QR code and projected back out. The graphic is placed in the
+          scene relative to QR code.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
