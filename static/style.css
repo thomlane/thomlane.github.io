@@ -115,9 +115,10 @@ a #github-icon {
 }
 
 .project-image {
-  width: 300px;
-  max-width: 28%;
-  max-height: 250px;
+  /* width: 300px; */
+  max-width: 300px;
+  max-height: 80%;
+  /* max-height: 250px; */
   position: absolute;
   right:5%;
   top: 10%;
