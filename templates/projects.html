@@ -20,44 +20,92 @@
     </nav>
     <div class='project-container'> <!-- Set each project in it's own project box inside the project container -->
       <div class='project-box'>
-        <p class='project-title'>Handheld AR Device</p>
-        <p class='project-reason'>Senior Capstone</p>
-        <img class='project-image' src="../images/Raspberry-Pi-4-Model-B-9.jpg" alt="A Raspberry Pi 4 Model B">
-        <p class='project-finished-on'>Finished on: Ongoing</p>
+        <h1 class='project-title'>Stealthy Stealth</h1>
+        <h2 class='project-reason'>Beginner Unity Project</h2>
+        <img class='project-image' src="../images/stealthyStealth.png" alt="A Stealthy Picture">
+        <h3 class='project-finished-on'>Finished on: August 2021</h3>
         <p class='project-description'>
-          This project is meant to create an AR device that is more intuitive
-          and more easliy shared. The project uses a Raspberry Pi 4 Model B with
-          a camera to capturea a video feed. The video feed will be parsed using
-          OpenCV to find a QR code. That QR code describes the data that needs
-          to shown at that space. A graphic is then created in unity to match
-          the QR code and projected back out. The graphic is placed in the
-          scene relative to QR code.
+          I spent many years learning how to properly code in many different
+          languages and styles, but apparrently that doesn't mean I instantly
+          know how to use Unity. Who knew. <br><br>
+          After searching around for a tutorial that was not too easy or
+          promising to help teach how to make a game without code
+          (what would be the point of my expensive degree?), I finally found
+          tutorial that was perfect. A youtuber I already knew and loved,
+          Sebastian Lague, made a lovely tutorial series that finished with
+          a test. Make a stealth game.<br><br>
+          While I cannot claim the idea, the series required that all steps be
+          attempted before Sebastian's answer be shown, so it's at least mostly
+          my work. It also taught me a lot about how to get started with Unity.
+          I'm proud of this first product I made and I'm excited to try my
+          other Unity ideas (right after I finish cleaning this game up).
         </p>
       </div>
-    <div class='project-container'>
       <div class='project-box'>
-        <p class='project-title'>GLSL Wave Simulation</p>
-        <p class='project-reason'>Shaders class final</p>
+        <h1 class='project-title'>Graduation</h1>
+        <h2 class='project-reason'>Required for Money and Fulfillment</h2>
+        <img class='project-image' src="../images/gradCap.png" alt="A Graduation Cap">
+        <h3 class='project-finished-on'>Finished on: June 2021</h3>
+        <p class='project-description'>
+          Is this a project? Maybe, IDK, but I did it. Woo, go me.<br><br>
+          3 years of mechanical engineering, sudden realization I didn't want to do
+          that, then 3 more of computer science. It was a long and difficult
+          task, but it was the easy part.<br><br>
+          Now just to find a job...
+        </p>
+      </div>
+      <div class='project-box'>
+        <h1 class='project-title'>Handheld AR Device</h1>
+        <h2 class='project-reason'>Senior Capstone</h2>
+        <img class='project-image' src="../images/Raspberry-Pi-4-Model-B-9.jpg" alt="A Raspberry Pi 4 Model B">
+        <h3 class='project-finished-on'>Finished on: June 2021</h3>
+        <p class='project-description'>
+          This project is meant to create an AR device that is more intuitive
+          and more easliy shared. The ideal finished project would work similar
+          to a flashlight but could scan markers and project information.<br><br>
+
+          The project uses a Raspberry Pi 4 Model B with a camera to capture a
+          video feed. The frame will be parsed using OpenCV to find a ArUco
+          marker as a fiducial. The marker's id would describe the data that
+          needs to shown at that space. A graphic would then be created to match
+          projected back out. The graphic would be placed in the scene relative
+          to ArUco marker.<br><br>
+
+          Our portion of the project of the product required my team to begin
+          researching the necessary technology and to develop the software. I
+          finished work to create and read ArUco markers in the
+          environment. I then used that marker to place and orient basic shapes
+          and text in the frame.<br><br>
+
+          My work was on all software past setting up the Raspberry PI. That included
+          creating and managing the necessary ArUco markers, detecting and
+          reading ArUco markers, and in creating the homography so that any
+          graphics could be properly placed in the projection.
+        </p>
+      </div>
+      <div class='project-box'>
+        <h1 class='project-title'>GLSL Wave Simulation</h1>
+        <h2 class='project-reason'>Shaders class final</h2>
         <img class='project-image' src="../images/wave.png" alt="A Gerstner wave">
-        <p class='project-finished-on'>Finished on: March 2021</p>
+        <h3 class='project-finished-on'>Finished on: March 2021</h3>
         <p class='project-description'>
           For the Oregon State shaders course taught by Professor Mike Bailey,
           the final project is choosen by the students. For my project I chose
-          to use Gerstner waves created in the vertex shader to simulate waves
-          in deep water. The program uses four overlapping waves that can all
-          be adjusted individually to create different patterns in the waves.
+          to use Gerstner waves created in the vertex shader to simulate deep
+          water. The program uses four overlapping waves that can all
+          be adjusted individually to create different patterns.
         </p>
       </div>
       <div class='project-box'>
-        <p class='project-title'>Bowling Alley Rest API</p>
-        <p class='project-reason'>Cloud App Development Final</p>
+        <h1 class='project-title'>Bowling Alley Rest API</h1>
+        <h2 class='project-reason'>Cloud App Development Final</h2>
         <img class='project-image' src="../images/Bowling_Ball.jpg" alt="A Bowling Ball">
-        <p class='project-finished-on'>Finished on: December 2020</p>
+        <h3 class='project-finished-on'>Finished on: December 2020</h3>
         <p class='project-description'>
           This is an API I designed to handle customers in a fictional bowling
           alley and is hosted on GoogleCloud and deployed on Google App Engine.
           By visiting the url the user will be asked to log in through google
-          and oAuth2.0. If they are succesful their login token will posted
+          and oAuth2.0. If they are successful their login token will posted
           onscreen and in the database.
 
           The documentation listed under docs gives a complete description of
