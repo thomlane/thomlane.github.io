@@ -12,8 +12,8 @@ body {
 #navbar {
   height: 8%;
   min-width: 100%;
-  background-color: green;
-  /* background-color: #4d7380; */
+  /* background-color: green;*/
+  background-color: #4d7380;
   display:inline-flex;
   align-items: center;
   justify-content: flex-start;
