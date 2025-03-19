@@ -1,0 +1,52 @@
+/* home page */
+.home-container {
+    height:93vh;
+    width:100vw;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+  }
+  
+  .text-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:1em;
+  }
+  
+  
+  .text-name {
+    font-size: 5vmax;
+    font-weight: bold;
+    margin: .3em;
+  }
+  
+  .text-description {
+    font-size: 2vmax;
+    margin: .1vmax;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: center; /* Centers icons */
+    padding: 10px;
+    background-color: #1d2b30; /* Matches your page background */
+    position:absolute;
+    bottom:0;
+    width:100vw;
+  }
+  
+  .footer a {
+    margin: 0 10px; /* Adds spacing between icons */
+  }
+  
+  #linkedin-icon, #github-icon {
+    width: 32px;
+    height: 32px;
+    
+  }
+  /* home page end */

@@ -1,0 +1,34 @@
+
+/* about page */
+.about-container {
+    min-height: 93vh;
+    display: flex;
+    /* height: auto; */
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-left: 40px;
+  }
+  
+  .about-name {
+    font-size: 60px;
+    text-decoration: underline;
+    padding-left: 40px;
+  }
+  
+  .about-image {
+    max-width: 40vmin;
+    border: 5px solid #4d7380;
+    border-radius: 15%;
+    position:fixed;
+    top: 10vh;
+    right: 5vw;
+  }
+  
+  .about-text {
+    max-width: 50%;
+    min-width: 15%;
+    background-color: #2e3c41;
+    border: 3px solid #4d7380;
+    padding: 15px;
+  }
