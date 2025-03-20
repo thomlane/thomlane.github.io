@@ -1,0 +1,79 @@
+[
+    {
+        "title": "Unnamed Senior Year Master's Project",
+        "reason": "Senior Year Master's Project",
+        "image": "images/dnd_grapple_hook.png",
+        "finished_on": "April 2025",
+        "description": "As the final major project for my DigiPen master's degree, I am working with a team of 4 other master students to create a game using a 3D game engine that we created from scratch. The game is a 3D platformer where the player uses a grappling hook to move around the level. The player can use the grappling hook to swing around the level to race towards the finish. For this project, I am the tech lead that manages the codebase and overall engine architecture. I am also the solo developer for the physics and collisen engines, as well as helping out with some other areas."
+    },
+    {
+        "title": "Oct-Tree Generation for A* Pathfinding",
+        "reason": "AI Class Final",
+        "image": "../images/octTree.png",
+        "finished_on": "August 2024",
+        "description": "For the final of a game AI course, two teammates and I created an oct-tree generation algorithm to use with A* pathfinding. The oct-tree is created by dividing the map into 8 sections and then dividing those sections into 8 sections and so on until the sections are small enough to be considered a leaf. The oct-tree is then used with A* to find the shortest path between two points on the map. I worked on terrain and obstacle generation and with agent AI."
+    },
+    {
+        "title": "Lance-A-Lot",
+        "reason": "Spring '24 Game Engine Class Final",
+        "image": "../images/lance_a_lot.png",
+        "finished_on": "April 2024",
+        "description": "For the second semester of classes at DigiPen, my classmates and I had to form into teams to create a 2D game engine and game in a single semester. My team created a game engine based off of the engine I made for the asteroids game and then adapted and updated it to fit a different game style. For this game we wanted to focus on the iteraction between different players, so we made a 4-player party game. In this game, players are knights trying to use their lances to move around the screen and strike the other players. I was producer for this project, but I also worked primarly on the physics and collision detection, as well as the player movement and input. Finally, I used the observer pattern I created for the asteroids game to allow different parts of the engine to communicate. I learned a lot about how to work with a team and how to manage a project, and the game turned out great!"
+    },
+    {
+        "title": "Asteroids in 2D Game Engine",
+        "reason": "Fall '23 Game Engine Class Final",
+        "image": "../images/asteroids.png",
+        "finished_on": "December 2023",
+        "description": "For the final of a game engine / software engineering course, I created a 2D game engine from scratch to use with a game of my choosing. I chose to recreate Asteroids using the original assets and as close to the original physics as I could get. The engine was created using C++, OpenGL, and GLM. I created the engine and the game by myself and I'm very proud of the work I did. I learned a lot about how to create a game engine and how to use it to create a game. Out of this project, I was most proud of the observer pattern I used to update the game objects and the collision detection I created to detect collisions between the asteroids and the player."
+    },
+    {
+        "title": "Ignition Point",
+        "reason": "GMTK Game Jam 2023",
+        "image": "../images/ignitionPoint.png",
+        "finished_on": "July 2023",
+        "description": "This game was made for the 2023 GMTK Game Jam. The theme for this year was \"Roles Reversed\", so we chose to make a game where the player is a fire fighter, as in a creature who fights with fire. The player must use their fire powers to burn down as much of the building as they can before the timer runs out. For this project I wrote some of the different parts of the codebase and also dabbled a bit in the art. This game jam was much more chill than the last one, but we still ended with a really great game."
+    },
+    {
+        "title": "Road to El DoRando",
+        "reason": "GMTK Game Jam 2022",
+        "image": "../images/elDoRando.png",
+        "finished_on": "July 2022",
+        "description": "This game was made for the 2022 GMTK Game Jam. The theme was roll of the dice, so my team created a rougelike where the distance moved and resources consumed are determined by the roll of a dice. I created the dice rolling mechanic, which meant I had to create a dice object that could be rolled and then read the result. I also made a rolling surface that would have the dice roll in from off screen, but then stay contained in the center of the screen. This was my first gamejam, and while it was very tiring and stressful, I'm very proud of the work I did and the game we created!"
+    },
+    {
+        "title": "Stealthy Stealth",
+        "reason": "Beginner Unity Project",
+        "image": "../images/stealthyStealth.png",
+        "finished_on": "August 2021",
+        "description": "I spent many years learning how to properly code in many different languages and styles, but apparently that doesn't mean I instantly know how to use Unity. Who knew. After searching around for a tutorial that was not too easy or promising to help teach how to make a game without code (what would be the point of my expensive degree?), I finally found a tutorial that was perfect. A YouTuber I already knew and loved, Sebastian Lague, made a lovely tutorial series that finished with a test. Make a stealth game. While I cannot claim the idea, the series required that all steps be attempted before Sebastian's answer be shown, so it's at least mostly my work. It also taught me a lot about how to get started with Unity. I'm proud of this first product I made and I'm excited to try my other Unity ideas (right after I finish cleaning this game up)."
+    },
+    {
+        "title": "Graduation",
+        "reason": "Required for Money and Fulfillment",
+        "image": "images/gradCap.png",
+        "finished_on": "June 2021",
+        "description": "Is this a project? Maybe, IDK, but I did it. Woo, go me. 3 years of mechanical engineering, sudden realization I didn't want to do that, then 3 more of computer science. It was a long and difficult task, but it was the easy part. Now just to find a job..."
+    },
+    {
+        "title": "Handheld AR Device",
+        "reason": "Senior Capstone",
+        "image": "../images/Raspberry-Pi-4-Model-B-9.jpg",
+        "finished_on": "June 2021",
+        "description": "This project is meant to create an AR device that is more intuitive and more easily shared. The ideal finished project would work similar to a flashlight but could scan markers and project information. The project uses a Raspberry Pi 4 Model B with a camera to capture a video feed. The frame will be parsed using OpenCV to find an ArUco marker as a fiducial. The marker's id would describe the data that needs to be shown at that space. A graphic would then be created to match projected back out. The graphic would be placed in the scene relative to ArUco marker. Our portion of the project of the product required my team to begin researching the necessary technology and to develop the software. I finished work to create and read ArUco markers in the environment. I then used that marker to place and orient basic shapes and text in the frame. My work was on all software past setting up the Raspberry PI. That included creating and managing the necessary ArUco markers, detecting and reading ArUco markers, and in creating the homography so that any graphics could be properly placed in the projection."
+    },
+    {
+        "title": "GLSL Wave Simulation",
+        "reason": "Shaders class final",
+        "image": "../images/wave.png",
+        "finished_on": "March 2021",
+        "description": "For the Oregon State shaders course taught by Professor Mike Bailey, the final project is chosen by the students. For my project I chose to use Gerstner waves created in the vertex shader to simulate deep water. The program uses four overlapping waves that can all be adjusted individually to create different patterns."
+    },
+    {
+        "title": "Bowling Alley Rest API",
+        "reason": "Cloud App Development Final",
+        "image": "../images/Bowling_Ball.jpg",
+        "finished_on": "December 2020",
+        "description": "This is an API I designed to handle customers in a fictional bowling alley and is hosted on GoogleCloud and deployed on Google App Engine. By visiting the url the user will be asked to log in through google and oAuth2.0. If they are successful their login token will be posted onscreen and in the database. The documentation listed under docs gives a complete description of the API. After logging in, a user can interact with the database by sending the requests to the defined endpoints. I used postman to send requests and an environment along with a series of tests are included in the docs folder."
+    }
+]

@@ -1,0 +1,49 @@
+html,body {
+  font-family: 'Libre Baskerville', serif;
+  color: lightgray;
+  background-color: #1d2b30;
+  min-height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+/* nav bar */
+#navbar {
+  height: 7vh;
+  width: 100vw;
+  /* background-color: green;*/
+  background-color: #4d7380;
+  display:inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.nav-container {
+  display:inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.nav-link {
+  margin-left: 1vmax;
+  font-size: 2vmax;
+  color: lightgray;
+  font-weight: bold;
+}
+
+.nav-link.active {
+  text-decoration: underline;
+}
+
+.nav-link.unactive:hover {
+  cursor: pointer;
+}
+  
+.link {
+  color: blue
+}
+
+.link-parent {
+  text-decoration: none
+}
+/* nav bar end */

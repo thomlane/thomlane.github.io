@@ -51,7 +51,7 @@
     {
         "title": "Graduation",
         "reason": "Required for Money and Fulfillment",
-        "image": "../images/gradCap.png",
+        "image": "images/gradCap.png",
         "finished_on": "June 2021",
         "description": "Is this a project? Maybe, IDK, but I did it. Woo, go me. 3 years of mechanical engineering, sudden realization I didn't want to do that, then 3 more of computer science. It was a long and difficult task, but it was the easy part. Now just to find a job..."
     },
