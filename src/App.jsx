@@ -7,6 +7,13 @@ import React from "react";
 import ReactMarkdown from "react-markdown"
 import { useState, useEffect } from "react";
 function App() {
+  useEffect(() => {
+    const meta = document.createElement('meta');
+    meta.name = 'viewport';
+    meta.content = 'width=device-width, initial-scale=1';
+    document.getElementsByTagName('head')[0].appendChild(meta);
+  }, []);
+
   const [activeNav, setActiveNav] = React.useState("home");
   return (
     <div>
@@ -15,6 +22,8 @@ function App() {
         <HomePage />
       ) : activeNav === "about" ? (
         <AboutMePage />
+      ) : activeNav === "projects" ? (
+        <ProjectPage />
       ) : null}
     </div>
   );
@@ -36,6 +45,7 @@ const MarkdownRenderer = () => {
   );
 };
 
+
 function NavBar(props) {
   const { activeNav, setActiveNav } = props;
   return (
@@ -44,7 +54,7 @@ function NavBar(props) {
         <a
           className={`nav-link ${activeNav === "home" ? "active" : "unactive"}`}
           onClick={() => setActiveNav("home")}
-        >
+          >
           Home
         </a>
         <a
@@ -60,7 +70,7 @@ function NavBar(props) {
             activeNav === "about" ? "active" : "unactive"
           }`}
           onClick={() => setActiveNav("about")}
-        >
+          >
           About
         </a>
       </div>
@@ -86,7 +96,7 @@ function HomePage() {
             className="link"
             src="images/linkedin_icon.png"
             alt="LinkedIn link"
-          />
+            />
         </a>
         <a className="link-parent" href="https://github.com/thomlane">
           <img
@@ -97,6 +107,43 @@ function HomePage() {
             />
         </a>
       </div>
+    </div>
+  );
+}
+
+function ProjectPage () {
+  const [jsonArray, setJsonArray] = useState([]);
+
+  useEffect(() => {
+    fetch("./data/projects.json")
+      .then((res) => res.json())
+      .then((data) => setJsonArray(data));
+  }, []);
+
+  return (
+    <div className="projects-container">
+      {jsonArray.map((project, index) => (
+        <ProjectEntry
+          key={index}
+          title={project.title}
+          reason={project.reason}
+          image={project.image}
+          finishedOn={project.finished_on}
+          description={project.description}
+        />
+      ))}
+    </div>
+  );
+};
+
+function ProjectEntry (props) {
+  return (
+    <div class="project-box"> {/* Sets each project in it's own project box inside the project container */}
+        <div class="project-title">{props.title}</div>              {/* a catchy title */}
+        <div class="project-reason">{props.reason}</div>            {/* a short reason I did the project (ie. school project, personal project...) */}
+        <div class="project-finished-on">{props.finishedOn}</div>  {/* <!-- the approximate date the project was finished --> */}
+        <img class="project-image" src={props.image}/>           {/*an image of the project*/}
+        <div class="project-description">{props.description}</div>    {/* <!-- an in-depth description of the project that shows off what I did or learned --> */}
     </div>
   );
 }
