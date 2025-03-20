@@ -18,11 +18,11 @@
     margin:1em;
   }
   
-  
   .text-name {
     font-size: 5vmax;
     font-weight: bold;
     margin: .3em;
+    padding-bottom: 12vh;
   }
   
   .text-description {
