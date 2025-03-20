@@ -1,34 +1,49 @@
-
 /* about page */
 .about-container {
     min-height: 93vh;
     display: flex;
     /* height: auto; */
+    flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    flex-direction: column;
-    padding-left: 40px;
-  }
-  
-  .about-name {
+    /* padding-left: 40px; */
+}
+
+.about-name {
     font-size: 60px;
     text-decoration: underline;
     padding-left: 40px;
-  }
-  
-  .about-image {
+}
+
+.about-image {
     max-width: 40vmin;
     border: 5px solid #4d7380;
     border-radius: 15%;
-    position:fixed;
+    position: fixed;
     top: 10vh;
     right: 5vw;
-  }
-  
-  .about-text {
+}
+
+.about-text {
     max-width: 50%;
     min-width: 15%;
     background-color: #2e3c41;
     border: 3px solid #4d7380;
     padding: 15px;
-  }
+    margin-inline: 20px;
+}
+
+/* Add media queries to adjust the image position on smaller screens */
+@media (max-width: 768px) {
+    .about-image {
+        position: static;
+        margin-inline: 20px auto;
+        margin: 20px auto;
+        display: block;
+    }
+
+    .about-text {
+        max-width: 90%;
+        /* margin-inline: 20px; */
+    }
+}

@@ -157,9 +157,9 @@ function AboutMePage() {
         src="images\me.jpg"
         alt="Quill and I"
       />
-      <p className="about-text">
+      <div className="about-text">
         <MarkdownRenderer />
-      </p>
+      </div>
     </div>
   );
 }
