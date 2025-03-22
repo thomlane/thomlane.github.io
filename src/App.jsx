@@ -86,27 +86,33 @@ function HomePage() {
         <div className="text-description">Real-Time Software Engineer</div>
         <div className="text-description">Master of Science: Computer Science</div>
       </div>
-      <div className="footer">
-        <a
-          className="link-parent"
-          href="https://linkedin.com/in/lane-thompson-2524881b0"
-        >
-          <img
-            id="linkedin-icon"
-            className="link"
-            src="images/linkedin_icon.png"
-            alt="LinkedIn link"
-            />
-        </a>
-        <a className="link-parent" href="https://github.com/thomlane">
-          <img
-            id="github-icon"
-            className="link"
-            src="images/github_icon.png"
-            alt="Github link"
-            />
-        </a>
-      </div>
+    <Footer />
+    </div>
+  );
+}
+
+function Footer() {
+  return (
+    <div className="footer">
+      <a
+        className="link-parent"
+        href="https://linkedin.com/in/lane-thompson-2524881b0"
+      >
+        <img
+          id="linkedin-icon"
+          className="link"
+          src="images/linkedin_icon.png"
+          alt="LinkedIn link"
+          />
+      </a>
+      <a className="link-parent" href="https://github.com/thomlane">
+        <img
+          id="github-icon"
+          className="link"
+          src="images/github_icon.png"
+          alt="Github link"
+          />
+      </a>
     </div>
   );
 }
