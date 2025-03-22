@@ -33,7 +33,7 @@
   .footer {
     display: flex;
     justify-content: center; /* Centers icons */
-    padding: 10px;
+    padding-block: 10px;
     background-color: #1d2b30; /* Matches your page background */
     position:absolute;
     bottom:0;
