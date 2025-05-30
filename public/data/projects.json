@@ -18,7 +18,7 @@
         "reason": "Master's Capstone Project",
         "image": "images/grappling_ideas.png",
         "finished_on": "April 2025",
-        "description": "As the final major project for my DigiPen master's degree, I am working with a team of 4 other master students to create a game using a 3D game engine that we created from scratch. The game is a 3D platformer where the player uses a grappling hook to move around the level, build momentum, and reach the finish line as quickly as possible. For this project, I am the tech lead that manages the codebase and overall engine architecture, as well as the solo developer for the physics and collision engines."
+        "description": "As the final major project for my DigiPen master's degree, I worked with a team of 4 other master students to develop a game using a 3D game engine that we created from scratch. The game is a 3D platformer where the player uses a grappling hook to move around the level, build momentum, and reach the finish line as quickly as possible. For this project, I am the tech lead that manages the codebase and overall engine architecture, as well as the solo developer for the physics and collision engines. The is available to download on itch.io: https://gamedev-noob.itch.io/grappling-with-ideas"
     },
     {
         "title": "Oct-Tree Generation for A* Pathfinding",
