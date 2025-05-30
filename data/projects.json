@@ -1,10 +1,24 @@
 [
     {
-        "title": "Unnamed Senior Year Master's Project",
-        "reason": "Senior Year Master's Project",
-        "image": "images/dnd_grapple_hook.png",
+        "title": "Trees with ECS",
+        "reason": "Learn ECS",
+        "image": "images/tree.png",
+        "finished_on": "Ongoing",
+        "description": "This is a personal project I started to learn how to use an Entity Component System (ECS) architecture. I wanted to create a simple sim that would create trees which would grow and reproduce, changing values with each generation. I made a simple test in Unity using OOP, but I quickly reached a performance limit with very few trees. I had heard about the ECS architecture at GDC2025 and found that Unity had their own Entities package in DOTS. Now I'm currently implementing my sim. I'm struggling, but also learning a lot." 
+    },
+    {
+        "title": "Physics Engine",
+        "reason": "Personal Project",
+        "image": "images/spheres.png",
+        "finished_on": "May 2025",
+        "description": "During my Master's Capstone project I started implementing a physics engine for our 3D platformer. I expanded on that engine for a physics class final and continued working on it after the term finished. The engine is general use, but was tested by spawning as many sphere colliders as possible. The graphics engine used the raylib library for simple sphere and cube draws. The collision system used SAT for its narrow phase. I experimented with the Sort and Sweep algorithm for the broad phase, but it actually slowed down the collision detection. I believe this was because I mostly used spheres, which already had extremely fast narrow phase detection. My greatest speedup came from using OpenMP on my collision detection loop and my particle update loop. By the end I could have about 6000 spheres at a time. If I wanted the spheres to be stacked I could run the collision detection and resolution multiple times per frame, which did reduce my sphere count to about 4000. If I wanted to continue this project, my next task would likely be to move collision detection to a compute shader."
+    },
+    {
+        "title": "Grappling with Ideas",
+        "reason": "Master's Capstone Project",
+        "image": "images/grappling_ideas.png",
         "finished_on": "April 2025",
-        "description": "As the final major project for my DigiPen master's degree, I am working with a team of 4 other master students to create a game using a 3D game engine that we created from scratch. The game is a 3D platformer where the player uses a grappling hook to move around the level. The player can use the grappling hook to swing around the level to race towards the finish. For this project, I am the tech lead that manages the codebase and overall engine architecture. I am also the solo developer for the physics and collisen engines, as well as helping out with some other areas."
+        "description": "As the final major project for my DigiPen master's degree, I am working with a team of 4 other master students to create a game using a 3D game engine that we created from scratch. The game is a 3D platformer where the player uses a grappling hook to move around the level, build momentum, and reach the finish line as quickly as possible. For this project, I am the tech lead that manages the codebase and overall engine architecture, as well as the solo developer for the physics and collision engines."
     },
     {
         "title": "Oct-Tree Generation for A* Pathfinding",
