@@ -5,7 +5,7 @@
         "image": "images/balancedBrain.png",
         "finished_on": "February 2026",
         "description": "This is a small project I started to learn how to use ML Agents in Unity. I created a series of stacked capsules that are connected by hinge joints and allowed to rotate the z-axis. The goal of the agent is to keep the capsules balanced and upright for as long as possible. I rewarded the agent based on how tall it kept a weight at it's top and punished when it fell off its platform. I trained the agent using the PPO algorithm and it made very obvious improvements over time. I do think that this project ended up more focused on learning about Unity hinges and setting up the scene more than I spent editting the agent, but I still learned a lot about how to use the ML Agents package and how to set up a scene for training an agent. In the future, I'd like to try again with a more simple scene so I could focus more on the agent and less on the scene setup, but I'm still proud of this project and the work I did on it."
-    }
+    },
     {
         "title": "Trees with ECS",
         "reason": "Learn ECS",
